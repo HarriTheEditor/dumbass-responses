@@ -10,18 +10,28 @@
     </head>
     
     <body>
-        <h1>Dumbass Responses</h1>
-        <p>a game for people with no common sense.</p>
+        <h1 id="disclaimer">
+            This game is in-complete. Please do not expect it to work half the time. 
+            Also note this game can be extremely innaproiate at times. 
+            Proceed if you are okay with rude behaviour and dark humour.
+        </h1>
+        <p id="disclaimer-button" onclick="Show()" onmouseover="Colour(true, 'disclaimer-button')" onmouseout="Colour(false, 'disclaimer-button')">Okay, I understand.</p>
+        <p id="g" onclick="Redirect('https://www.google.com')" onmouseover="Colour(true, 'g')" onmouseout="Colour(false, 'g')">Oh! Please take me to google then!</p>
+        <div id="main-box">
+            <h1>Dumbass Responses</h1>
+            <p>a game for people with no common sense.</p>
 
-        <br><br>
+            <br><br>
 
-        <h2>Examples:</h2>
-        <p class="sentence">"I bought an nft for 47k dollars!"</p>
-        <p class="response">"And I love muffins and electrons!"</p>
+            <h2>Example:</h2>
+            <p id="sentence" class="sentence"></p>
+            <p id="response" class="response"></p>
+            <p>refresh for another example!</p>
 
-        <br>
+            <br>
 
-        <h2 id='game_button' onclick="Redirect('game.html')" onmouseover="Colour(true, 'game_button')" onmouseout="Colour(false, 'game_button')">Play</h2>
+            <h2 id='game_button' onclick="Redirect('game.html')" onmouseover="Colour(true, 'game_button')" onmouseout="Colour(false, 'game_button')">Play</h2>
+        </div>
 
         <script type="text/javascript" src="assets/redirect.js"></script>
     </body>
