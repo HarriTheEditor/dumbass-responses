@@ -1,0 +1,27 @@
+html {
+    margin: 0 auto;
+}
+
+body {
+    color: white; 
+    background-color: black; 
+    text-align:center; 
+    text-decoration: none;
+    overflow: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center; 
+    min-height:100vh;
+}
+
+.sentence {
+    color: rgb(80, 80, 255);
+    font-family: Arial;
+}
+
+.response {
+    color: rgb(255, 80, 80);
+    font-family: Arial;
+}
