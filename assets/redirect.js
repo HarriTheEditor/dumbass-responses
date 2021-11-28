@@ -22,7 +22,7 @@ const Sentence = Sentences[Math.floor(Math.random() * Sentences.length)];
 const Response = Responses[Math.floor(Math.random() * Responses.length)];
 let s = document.getElementById("sentence");
 let r = document.getElementById("response");
-let main = document.getElementById("main-box")
+let main = document.getElementById("main-box");
 
 main.style.display = 'none';
 
@@ -32,7 +32,7 @@ r.innerHTML = Response;
 function Show() {
     let disclaimer = document.getElementById('disclaimer');
     let disclaimer_button = document.getElementById('disclaimer-button');
-    let g = document.getElementById('g')
+    let g = document.getElementById('g');
 
     disclaimer.style.display = 'none';
     disclaimer_button.style.display = 'none';
@@ -54,5 +54,5 @@ function Colour(v, id) {
 }
 
 function Redirect(des) {
-    window.location = des
+    window.location = des;
 }
