@@ -23,17 +23,16 @@ const Response = Responses[Math.floor(Math.random() * Responses.length)];
 let s = document.getElementById("sentence");
 let r = document.getElementById("response");
 let main = document.getElementById("main-box");
+let disclaimer = document.getElementById('disclaimer');
+let disclaimer_button = document.getElementById('disclaimer-button');
+let g = document.getElementById('g');
 
 main.style.display = 'none';
 
 s.innerHTML = Sentence;
 r.innerHTML = Response;
 
-function Show() {
-    let disclaimer = document.getElementById('disclaimer');
-    let disclaimer_button = document.getElementById('disclaimer-button');
-    let g = document.getElementById('g');
-
+function Show(val) {
     disclaimer.style.display = 'none';
     disclaimer_button.style.display = 'none';
     g.style.display = 'none';
