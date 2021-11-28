@@ -32,7 +32,7 @@ main.style.display = 'none';
 s.innerHTML = Sentence;
 r.innerHTML = Response;
 
-function Show(val) {
+function Showmenus(val) {
     disclaimer.style.display = 'none';
     disclaimer_button.style.display = 'none';
     g.style.display = 'none';
